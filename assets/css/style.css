@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;				  
+    background-image:url('/assets/img/background1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;  
+}
+
+/***** default *****/
+
+.head{
+    text-shadow: white 0.2em 0.1em 0.3em;
+    text-align:center;
+    color:white;
+}
+
+.bg-light{
+    background-color: transparent!important;
+    vertical-align:top;
+}
+
+.navbar-nav{
+    background-color:#111111;
+    width:50vw;
+}
+
+.picbtn{
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
+
+main{
+    height:84vh;
+    text-align:center;
+    /*background-color:#2C2B2B;*/
+    background-size: 100% auto;
+    padding:2vh 6vw;
+}
+
+/***** default *****/
+
+/***** home *****/
+
+.home-list{
+    width:100%;
+    height:60vh;
+    background-color:#ffffff50;
+    color:#ffffff;
+    overflow-y:auto;
+}
+
+/***** home *****/
+
+/***** setting *****/
+.user-info{
+    height:16vh;
+    background-color:#70707099;
+    border-radius: 2vh;
+    overflow:auto;
+    padding:2vh 5%;
+}
+
+.user-info span{
+    height:4vh;
+    line-height: 4vh;
+    font-size: 2vh;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+.user-info hr{
+    height:1vh;
+    line-height: 1vh;
+    margin: 0;
+}
+
+.setting-menu div{
+    background-color: #ffffff50;
+    border-radius: 10px;
+    margin:1.5vh 2vw;
+    padding:3vh 3vw;
+}
+
+.setting-menu span{
+    color: bisque;
+    line-height: 3vh;
+    font-size: 3vh;
+}
+
+/***** setting *****/
