@@ -1,19 +1,3 @@
-<?php
-
-session_start();
-
-if(isset($_SESSION['token'])){
-	$token = $_SESSION['token'];
-	include_once("./api/check.php");
-	$result=check($token);
-	$http = '//'.$_SERVER['HTTP_HOST'];
-	if($result){
-		header('Location:'.$http.'/system/');
-	}
-}
-
-?>
-
 <!doctype html>
 <html lang="zh-Hant">
   	<head>
